@@ -147,14 +147,15 @@ footer nav a {
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 20px 0;
 
 }
 header nav {
     display: flex;
     justify-content: space-around;
     width: 610px;
-    align-items: center;
+    align-items: flex-end;
 }
 
 header nav a {
@@ -203,6 +204,12 @@ header nav a {
 }
 
 .container .jumboimg {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.about-page .aboutjumbo {
     display: flex;
     justify-content: center;
     padding: 20px 0;
