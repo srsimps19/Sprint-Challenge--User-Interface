@@ -147,13 +147,14 @@ footer nav a {
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 header nav {
     display: flex;
     justify-content: space-around;
     width: 610px;
+    align-items: center;
 }
 
 header nav a {
@@ -199,4 +200,9 @@ header nav a {
 
 .boxes #box10 {
     background-color: dodgerblue;
+}
+
+.container .jumboimg {
+    display: flex;
+    justify-content: center;
 }
