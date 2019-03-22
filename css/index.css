@@ -250,3 +250,20 @@ header nav a {
     margin-bottom: 20px;
     padding: 20px 20px;
 }
+
+.contact-page form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.contact-page form button {
+    background-color: white;
+    text-decoration: none;
+    width: 125px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 30px 0;
+}
