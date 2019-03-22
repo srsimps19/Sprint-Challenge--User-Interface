@@ -214,3 +214,9 @@ header nav a {
     justify-content: center;
     padding: 20px 0;
 }
+
+.about-page .aboutSection {
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding: 20px 20px;;
+}
