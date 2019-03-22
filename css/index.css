@@ -220,3 +220,28 @@ header nav a {
     margin-bottom: 20px;
     padding: 20px 20px;;
 }
+
+.about-page .middleAbout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about-page .middleAbout .strategy {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+.about-page .middleAbout .strategy button {
+    background-color: white;
+    text-decoration: none;
+    width: 125px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 30px;
+}
